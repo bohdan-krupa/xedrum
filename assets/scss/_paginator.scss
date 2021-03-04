@@ -1,0 +1,27 @@
+.paginator {
+	margin-top: 20px;
+
+
+	li {
+		float: left;
+		margin-right: 3px;
+
+
+		a {
+			background: $paginator-item-bg-color;
+			color: $paginator-item-color;
+			font-size: 14px;
+			padding: 10px 15px;
+			font-weight: bold;
+		}
+
+		&:last-child {
+			margin-right: 0;
+		}
+
+		&.current a,
+		a:hover {
+			background: $active-paginator-item-bg-color;
+		}
+	}
+}

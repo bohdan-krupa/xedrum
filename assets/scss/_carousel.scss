@@ -1,0 +1,92 @@
+.carousel-item {
+	background: #FFF;
+	margin-bottom: 0;
+
+
+	.post-margin {
+		padding: 5% 10%;
+	}
+
+	a {
+		font-size: 16px;
+		color: $carousel-item-title-color;
+
+
+		&:hover {
+			color: $hover-carousel-item-title-color;
+		}
+	}
+
+	span {
+		display: block;
+		font-size: 11px;
+		color: $time-and-tag-color;
+		text-transform: uppercase;
+		margin-bottom: 10px;
+	}
+
+	.carousel-image,
+	iframe {
+		width: 290px;
+		height: 130px;
+	}
+
+	.carousel-image {
+		object-fit: cover;
+	}
+
+	p {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+}
+
+.carousel-container {
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		display: block;
+	}
+
+	li {
+		width: 290px;
+		margin-right: 25px;
+		padding: 0;
+		display: block;
+		float: left;
+
+
+		&:nth-child(3n) {
+			margin-right: 0;
+		}
+	}
+
+	&:hover .carousel-controls span {
+		opacity: 1;
+	}
+}
+
+.carousel-controls {
+	position: relative;
+	bottom: 192px;
+
+
+	span {
+		padding: 10px 15px;
+		background: $carousel-controls-bg-color;
+		color: $carousel-controls-color;
+		font-size: 20px;
+		opacity: 0.7;
+		transition: all .5s ease-in-out;
+		cursor: pointer;
+
+
+		&:hover {
+			background: $hover-carousel-controls-bg-color;
+		}
+	}
+}
+
+.prev { float: left; }
+.next { float: right; }

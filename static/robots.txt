@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /font/
+Disallow: /js/
+Disallow: /_nuxt/
+Disallow: /svgs/
+Disallow: /404.html
+Disallow: /xedrum-font.css
+Sitemap: https://xedrum.com/sitemap.xml

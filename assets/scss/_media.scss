@@ -1,0 +1,103 @@
+@media screen and (max-width: 920px) {
+	body {
+		width: 100%;
+		background-color: #FFF;
+	}
+
+	header {
+		margin-bottom: 20px;
+	}
+
+	.carousel-container {
+		display: none;
+	}
+
+	.posts-container,
+	.widget-container {
+		float: unset;
+		width: 100%;
+	}
+
+	.widget-title,
+	.widget-container ul:not(.widget-popular-posts) {
+		text-align: center;
+	}
+
+	.paginator {
+		width: calc(38px * 5 + 3px * 4);
+		margin: 0 auto;
+		margin-bottom: 80px;
+	}
+
+	footer {
+		margin-top: 0;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.logo {
+		position: fixed;
+		margin-left: 0;
+		text-align: center;
+	}
+
+	.sf-menu {
+		position: relative;
+		top: 52px;
+		float: inherit;
+
+
+		li {
+			width: 50%;
+			text-align: center;
+
+
+			&.current a,
+			&:hover a {
+				margin: .7em auto;
+				padding: .8em 0;
+				width: 80%;
+				border-radius: 50px;
+			}
+		}
+	}
+
+	header {
+		margin-bottom: 80px;
+	}
+
+	.post {
+		h1.post-title {
+			font-size: 19px;
+			margin-bottom: 5px;
+		}
+
+		img,
+		iframe {
+			margin-top: 12px;
+			height: 220px;
+		}
+
+		.post-read-more {
+			float: unset;
+			width: 54%;
+			text-align: center;
+			padding: 14px;
+			margin: -0px 23% 5px 23%;
+			border-radius: 50px;
+		}
+	}
+
+	footer {
+		text-align: center;
+
+
+		p, a {
+			float: inherit;
+		}
+
+		p {
+			padding-bottom: 8px;
+		}
+	}
+}
